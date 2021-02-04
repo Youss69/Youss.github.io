@@ -1,3 +1,60 @@
-h1 {
-  color :red
+*{
+  font-family: Avenir, sans-serif;
+  text-align: center;
+}
+
+h1{
+background-color: beige;
+}
+
+h2{
+  color: skyblue;
+}
+.mobile {
+  font-weight: bold;
+}
+img{
+    width: 200px;
+    height: 200px;
+    border: 3px solid #fff;
+    box-shadow: 0px 0px 10px #777;
+    border-radius: 40%;
+}
+
+.moi {
+  padding: 30px;
+  margin: 30px;
+  border-radius: 4px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  border: 1px solid black;
+  opacity:0.6;
+}
+.moi:hover{
+  opacity:1;
+}
+
+.parcours{
+  padding: 30px;
+  margin: 30px;
+  border-radius: 4px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  border: 1px solid black;
+  opacity:0.6;
+}
+.parcours:hover{
+  opacity:1;
+}
+.contact{
+  padding-bottom: 30px;
+  margin: 30px;
+  border-radius: 4px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  border: 1px solid black;
+  opacity:0.6;
+}
+.contact:hover{
+  opacity:1;
+}
+div:hover {
+ opacity:1;
 }
